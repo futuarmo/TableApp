@@ -1,5 +1,4 @@
 #include "marketsorter.h"
-#include "models/sortermodel.h"
 
 #include <QApplication>
 

@@ -2,9 +2,10 @@
 
 #include <QBrush>
 #include <QDebug>
-#include <sstream>
+
 #include <iomanip>
 #include <random>
+#include <sstream>
 
 namespace {
     const int itemsCount = 100;
@@ -55,7 +56,6 @@ void SorterModel::generateData() {
         m_prevCloses[i] = m_closes[i];
         m_closes[i] = closeDist(rng);
     }
-
 
     QAbstractItemModel::beginResetModel();
     QAbstractItemModel::endResetModel();

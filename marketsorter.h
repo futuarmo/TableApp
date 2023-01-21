@@ -1,5 +1,4 @@
-#ifndef MARKETSORTER_H
-#define MARKETSORTER_H
+#pragma once
 
 #include <QMainWindow>
 #include <QTimer>
@@ -24,4 +23,3 @@ private:
 
     Ui::MarketSorter *ui;
 };
-#endif // MARKETSORTER_H
