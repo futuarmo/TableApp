@@ -20,6 +20,8 @@ MarketSorter::MarketSorter(QWidget *parent)
 
 MarketSorter::~MarketSorter()
 {
+    m_timer->stop();
+
     delete ui;
 }
 
